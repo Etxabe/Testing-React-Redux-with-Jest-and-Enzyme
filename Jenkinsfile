@@ -5,7 +5,7 @@ pipeline {
         // Etapa de Checkout (clona el repositorio)
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'tu-credencial-id', url: 'https://github.com/tu_usuario/tu_repositorio.git'
+                git branch: 'main', credentialsId: 'tu-credencial-id', url: 'https://github.com/Etxabe/Testing-React-Redux-with-Jest-and-Enzyme.git'
             }
         }
 
