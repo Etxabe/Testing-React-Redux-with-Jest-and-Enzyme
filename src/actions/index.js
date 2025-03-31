@@ -10,6 +10,7 @@ export const fetchPosts = () => async (dispatch) => {
         })
     })
     .catch(err => {
+        // console.log(Ha habido un error: );
         // console.log(err);
     })
 };
